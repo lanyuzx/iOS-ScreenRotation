@@ -1,0 +1,6 @@
+framework module Pods_______Tests {
+  umbrella header "Pods-屏幕旋转方案Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

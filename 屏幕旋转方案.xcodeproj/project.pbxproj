@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660CD5DB197771DCD8D681A8 /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B361C2A7150BFE1950769F0 /* Pods_______Tests.framework */; };
+		67D7C7D2328A07BE836B26DF /* Pods_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEE19FF12A76F8F3CD3DA0A /* Pods_______.framework */; };
+		B5C2A7421FF49E0900776371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A7411FF49E0900776371 /* AppDelegate.m */; };
+		B5C2A74A1FF49E0900776371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C2A7491FF49E0900776371 /* Assets.xcassets */; };
+		B5C2A74D1FF49E0900776371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C2A74B1FF49E0900776371 /* LaunchScreen.storyboard */; };
+		B5C2A7501FF49E0900776371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A74F1FF49E0900776371 /* main.m */; };
+		B5C2A75A1FF49E0900776371 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A7591FF49E0900776371 /* ______Tests.m */; };
+		B5C2A7651FF49E0900776371 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A7641FF49E0900776371 /* ______UITests.m */; };
+		B5C2A7791FF49EE900776371 /* HMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A7751FF49EE900776371 /* HMNavigationController.m */; };
+		B5C2A77A1FF49EE900776371 /* HMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A7781FF49EE900776371 /* HMMainViewController.m */; };
+		B5C2A77E1FF49F7700776371 /* HMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A77D1FF49F7700776371 /* HMHomeViewController.m */; };
+		B5C2A78A1FF49F9C00776371 /* HMMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A7811FF49F9B00776371 /* HMMessageViewController.m */; };
+		B5C2A78B1FF49F9C00776371 /* HMProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A7841FF49F9B00776371 /* HMProfileViewController.m */; };
+		B5C2A78D1FF49F9C00776371 /* HMDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A7891FF49F9C00776371 /* HMDiscoverViewController.m */; };
+		B5C2A7901FF4A11800776371 /* LLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C2A78F1FF4A11800776371 /* LLBaseViewController.m */; };
+		EFB330A39EBFB649E594EDCA /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D86E07E5D75DE84F8895693 /* Pods_______UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5C2A7561FF49E0900776371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C2A7351FF49E0900776371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C2A73C1FF49E0900776371;
+			remoteInfo = "屏幕旋转方案";
+		};
+		B5C2A7611FF49E0900776371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5C2A7351FF49E0900776371 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C2A73C1FF49E0900776371;
+			remoteInfo = "屏幕旋转方案";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB5B89A69005F5DCBFA752F /* Pods-屏幕旋转方案Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-屏幕旋转方案Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-屏幕旋转方案Tests/Pods-屏幕旋转方案Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5561A5CF71DD334BEF8FC055 /* Pods-屏幕旋转方案.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-屏幕旋转方案.debug.xcconfig"; path = "Pods/Target Support Files/Pods-屏幕旋转方案/Pods-屏幕旋转方案.debug.xcconfig"; sourceTree = "<group>"; };
+		6597F50A5A04CC106D099218 /* Pods-屏幕旋转方案UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-屏幕旋转方案UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-屏幕旋转方案UITests/Pods-屏幕旋转方案UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E04A78530BED8F1512608C0 /* Pods-屏幕旋转方案Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-屏幕旋转方案Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-屏幕旋转方案Tests/Pods-屏幕旋转方案Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B361C2A7150BFE1950769F0 /* Pods_______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_______Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D86E07E5D75DE84F8895693 /* Pods_______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_______UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C2A73D1FF49E0900776371 /* 屏幕旋转方案.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "屏幕旋转方案.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C2A7401FF49E0900776371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5C2A7411FF49E0900776371 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5C2A7491FF49E0900776371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C2A74C1FF49E0900776371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5C2A74E1FF49E0900776371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C2A74F1FF49E0900776371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5C2A7551FF49E0900776371 /* 屏幕旋转方案Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "屏幕旋转方案Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C2A7591FF49E0900776371 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ______Tests.m; sourceTree = "<group>"; };
+		B5C2A75B1FF49E0900776371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C2A7601FF49E0900776371 /* 屏幕旋转方案UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "屏幕旋转方案UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C2A7641FF49E0900776371 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ______UITests.m; sourceTree = "<group>"; };
+		B5C2A7661FF49E0900776371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C2A7751FF49EE900776371 /* HMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNavigationController.m; sourceTree = "<group>"; };
+		B5C2A7761FF49EE900776371 /* HMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNavigationController.h; sourceTree = "<group>"; };
+		B5C2A7771FF49EE900776371 /* HMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMainViewController.h; sourceTree = "<group>"; };
+		B5C2A7781FF49EE900776371 /* HMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMainViewController.m; sourceTree = "<group>"; };
+		B5C2A77C1FF49F7700776371 /* HMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHomeViewController.h; sourceTree = "<group>"; };
+		B5C2A77D1FF49F7700776371 /* HMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHomeViewController.m; sourceTree = "<group>"; };
+		B5C2A7801FF49F9B00776371 /* HMMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMessageViewController.h; sourceTree = "<group>"; };
+		B5C2A7811FF49F9B00776371 /* HMMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMessageViewController.m; sourceTree = "<group>"; };
+		B5C2A7831FF49F9B00776371 /* HMProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMProfileViewController.h; sourceTree = "<group>"; };
+		B5C2A7841FF49F9B00776371 /* HMProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMProfileViewController.m; sourceTree = "<group>"; };
+		B5C2A7881FF49F9C00776371 /* HMDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDiscoverViewController.h; sourceTree = "<group>"; };
+		B5C2A7891FF49F9C00776371 /* HMDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDiscoverViewController.m; sourceTree = "<group>"; };
+		B5C2A78E1FF4A11800776371 /* LLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLBaseViewController.h; sourceTree = "<group>"; };
+		B5C2A78F1FF4A11800776371 /* LLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLBaseViewController.m; sourceTree = "<group>"; };
+		B5C2A7911FF4A20B00776371 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF0D8063BEEDCF74FBA38540 /* Pods-屏幕旋转方案.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-屏幕旋转方案.release.xcconfig"; path = "Pods/Target Support Files/Pods-屏幕旋转方案/Pods-屏幕旋转方案.release.xcconfig"; sourceTree = "<group>"; };
+		C63076998822FFBC746B238D /* Pods-屏幕旋转方案UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-屏幕旋转方案UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-屏幕旋转方案UITests/Pods-屏幕旋转方案UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEE19FF12A76F8F3CD3DA0A /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C2A73A1FF49E0900776371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D7C7D2328A07BE836B26DF /* Pods_______.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2A7521FF49E0900776371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660CD5DB197771DCD8D681A8 /* Pods_______Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2A75D1FF49E0900776371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB330A39EBFB649E594EDCA /* Pods_______UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1101BE03E32055EC73E9CB9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE19FF12A76F8F3CD3DA0A /* Pods_______.framework */,
+				8B361C2A7150BFE1950769F0 /* Pods_______Tests.framework */,
+				9D86E07E5D75DE84F8895693 /* Pods_______UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3922F3E536EAF7D3112A91A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5561A5CF71DD334BEF8FC055 /* Pods-屏幕旋转方案.debug.xcconfig */,
+				BF0D8063BEEDCF74FBA38540 /* Pods-屏幕旋转方案.release.xcconfig */,
+				6E04A78530BED8F1512608C0 /* Pods-屏幕旋转方案Tests.debug.xcconfig */,
+				1AB5B89A69005F5DCBFA752F /* Pods-屏幕旋转方案Tests.release.xcconfig */,
+				C63076998822FFBC746B238D /* Pods-屏幕旋转方案UITests.debug.xcconfig */,
+				6597F50A5A04CC106D099218 /* Pods-屏幕旋转方案UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5C2A7341FF49E0900776371 = {
+			isa = PBXGroup;
+			children = (
+				B5C2A73F1FF49E0900776371 /* 屏幕旋转方案 */,
+				B5C2A7581FF49E0900776371 /* 屏幕旋转方案Tests */,
+				B5C2A7631FF49E0900776371 /* 屏幕旋转方案UITests */,
+				B5C2A73E1FF49E0900776371 /* Products */,
+				3922F3E536EAF7D3112A91A4 /* Pods */,
+				1101BE03E32055EC73E9CB9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C2A73E1FF49E0900776371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2A73D1FF49E0900776371 /* 屏幕旋转方案.app */,
+				B5C2A7551FF49E0900776371 /* 屏幕旋转方案Tests.xctest */,
+				B5C2A7601FF49E0900776371 /* 屏幕旋转方案UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C2A73F1FF49E0900776371 /* 屏幕旋转方案 */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2A7401FF49E0900776371 /* AppDelegate.h */,
+				B5C2A7411FF49E0900776371 /* AppDelegate.m */,
+				B5C2A7771FF49EE900776371 /* HMMainViewController.h */,
+				B5C2A7781FF49EE900776371 /* HMMainViewController.m */,
+				B5C2A7761FF49EE900776371 /* HMNavigationController.h */,
+				B5C2A7751FF49EE900776371 /* HMNavigationController.m */,
+				B5C2A78E1FF4A11800776371 /* LLBaseViewController.h */,
+				B5C2A78F1FF4A11800776371 /* LLBaseViewController.m */,
+				B5C2A77B1FF49F7700776371 /* Home(首页) */,
+				B5C2A7851FF49F9C00776371 /* Discover(发现) */,
+				B5C2A77F1FF49F9B00776371 /* Message(消息) */,
+				B5C2A7821FF49F9B00776371 /* Profile(我) */,
+				B5C2A7491FF49E0900776371 /* Assets.xcassets */,
+				B5C2A74B1FF49E0900776371 /* LaunchScreen.storyboard */,
+				B5C2A74E1FF49E0900776371 /* Info.plist */,
+				B5C2A74F1FF49E0900776371 /* main.m */,
+				B5C2A7911FF4A20B00776371 /* PrefixHeader.pch */,
+			);
+			path = "屏幕旋转方案";
+			sourceTree = "<group>";
+		};
+		B5C2A7581FF49E0900776371 /* 屏幕旋转方案Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2A7591FF49E0900776371 /* ______Tests.m */,
+				B5C2A75B1FF49E0900776371 /* Info.plist */,
+			);
+			path = "屏幕旋转方案Tests";
+			sourceTree = "<group>";
+		};
+		B5C2A7631FF49E0900776371 /* 屏幕旋转方案UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2A7641FF49E0900776371 /* ______UITests.m */,
+				B5C2A7661FF49E0900776371 /* Info.plist */,
+			);
+			path = "屏幕旋转方案UITests";
+			sourceTree = "<group>";
+		};
+		B5C2A77B1FF49F7700776371 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2A77C1FF49F7700776371 /* HMHomeViewController.h */,
+				B5C2A77D1FF49F7700776371 /* HMHomeViewController.m */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		B5C2A77F1FF49F9B00776371 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2A7801FF49F9B00776371 /* HMMessageViewController.h */,
+				B5C2A7811FF49F9B00776371 /* HMMessageViewController.m */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		B5C2A7821FF49F9B00776371 /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2A7831FF49F9B00776371 /* HMProfileViewController.h */,
+				B5C2A7841FF49F9B00776371 /* HMProfileViewController.m */,
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		B5C2A7851FF49F9C00776371 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2A7881FF49F9C00776371 /* HMDiscoverViewController.h */,
+				B5C2A7891FF49F9C00776371 /* HMDiscoverViewController.m */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C2A73C1FF49E0900776371 /* 屏幕旋转方案 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C2A7691FF49E0900776371 /* Build configuration list for PBXNativeTarget "屏幕旋转方案" */;
+			buildPhases = (
+				FAB92070D3D8FFF48DEF727C /* [CP] Check Pods Manifest.lock */,
+				B5C2A7391FF49E0900776371 /* Sources */,
+				B5C2A73A1FF49E0900776371 /* Frameworks */,
+				B5C2A73B1FF49E0900776371 /* Resources */,
+				343CAFF22DF0D030CCBAD401 /* [CP] Embed Pods Frameworks */,
+				7CDD3F1D6DFEC9DE6DFDFAE3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "屏幕旋转方案";
+			productName = "屏幕旋转方案";
+			productReference = B5C2A73D1FF49E0900776371 /* 屏幕旋转方案.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5C2A7541FF49E0900776371 /* 屏幕旋转方案Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C2A76C1FF49E0900776371 /* Build configuration list for PBXNativeTarget "屏幕旋转方案Tests" */;
+			buildPhases = (
+				FEDA560A29D508FE80114980 /* [CP] Check Pods Manifest.lock */,
+				B5C2A7511FF49E0900776371 /* Sources */,
+				B5C2A7521FF49E0900776371 /* Frameworks */,
+				B5C2A7531FF49E0900776371 /* Resources */,
+				75E45D4C2FADDA5C14D4F424 /* [CP] Embed Pods Frameworks */,
+				F1AE7EB1BBB11779A4897DE3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C2A7571FF49E0900776371 /* PBXTargetDependency */,
+			);
+			name = "屏幕旋转方案Tests";
+			productName = "屏幕旋转方案Tests";
+			productReference = B5C2A7551FF49E0900776371 /* 屏幕旋转方案Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5C2A75F1FF49E0900776371 /* 屏幕旋转方案UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C2A76F1FF49E0900776371 /* Build configuration list for PBXNativeTarget "屏幕旋转方案UITests" */;
+			buildPhases = (
+				EDA6700A084132835908CEE5 /* [CP] Check Pods Manifest.lock */,
+				B5C2A75C1FF49E0900776371 /* Sources */,
+				B5C2A75D1FF49E0900776371 /* Frameworks */,
+				B5C2A75E1FF49E0900776371 /* Resources */,
+				45DB184B76F3E5D367CEC291 /* [CP] Embed Pods Frameworks */,
+				BF043C57F10F5E9B626072DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5C2A7621FF49E0900776371 /* PBXTargetDependency */,
+			);
+			name = "屏幕旋转方案UITests";
+			productName = "屏幕旋转方案UITests";
+			productReference = B5C2A7601FF49E0900776371 /* 屏幕旋转方案UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C2A7351FF49E0900776371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "周尊贤";
+				TargetAttributes = {
+					B5C2A73C1FF49E0900776371 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B5C2A7541FF49E0900776371 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5C2A73C1FF49E0900776371;
+					};
+					B5C2A75F1FF49E0900776371 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B5C2A73C1FF49E0900776371;
+					};
+				};
+			};
+			buildConfigurationList = B5C2A7381FF49E0900776371 /* Build configuration list for PBXProject "屏幕旋转方案" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C2A7341FF49E0900776371;
+			productRefGroup = B5C2A73E1FF49E0900776371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C2A73C1FF49E0900776371 /* 屏幕旋转方案 */,
+				B5C2A7541FF49E0900776371 /* 屏幕旋转方案Tests */,
+				B5C2A75F1FF49E0900776371 /* 屏幕旋转方案UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C2A73B1FF49E0900776371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C2A74D1FF49E0900776371 /* LaunchScreen.storyboard in Resources */,
+				B5C2A74A1FF49E0900776371 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2A7531FF49E0900776371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2A75E1FF49E0900776371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		343CAFF22DF0D030CCBAD401 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-屏幕旋转方案/Pods-屏幕旋转方案-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-屏幕旋转方案/Pods-屏幕旋转方案-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45DB184B76F3E5D367CEC291 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-屏幕旋转方案UITests/Pods-屏幕旋转方案UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E45D4C2FADDA5C14D4F424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-屏幕旋转方案Tests/Pods-屏幕旋转方案Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CDD3F1D6DFEC9DE6DFDFAE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-屏幕旋转方案/Pods-屏幕旋转方案-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF043C57F10F5E9B626072DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-屏幕旋转方案UITests/Pods-屏幕旋转方案UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA6700A084132835908CEE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-屏幕旋转方案UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1AE7EB1BBB11779A4897DE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-屏幕旋转方案Tests/Pods-屏幕旋转方案Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB92070D3D8FFF48DEF727C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-屏幕旋转方案-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDA560A29D508FE80114980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-屏幕旋转方案Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C2A7391FF49E0900776371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C2A7791FF49EE900776371 /* HMNavigationController.m in Sources */,
+				B5C2A7901FF4A11800776371 /* LLBaseViewController.m in Sources */,
+				B5C2A7501FF49E0900776371 /* main.m in Sources */,
+				B5C2A78B1FF49F9C00776371 /* HMProfileViewController.m in Sources */,
+				B5C2A7421FF49E0900776371 /* AppDelegate.m in Sources */,
+				B5C2A78A1FF49F9C00776371 /* HMMessageViewController.m in Sources */,
+				B5C2A77A1FF49EE900776371 /* HMMainViewController.m in Sources */,
+				B5C2A78D1FF49F9C00776371 /* HMDiscoverViewController.m in Sources */,
+				B5C2A77E1FF49F7700776371 /* HMHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2A7511FF49E0900776371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C2A75A1FF49E0900776371 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C2A75C1FF49E0900776371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C2A7651FF49E0900776371 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5C2A7571FF49E0900776371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C2A73C1FF49E0900776371 /* 屏幕旋转方案 */;
+			targetProxy = B5C2A7561FF49E0900776371 /* PBXContainerItemProxy */;
+		};
+		B5C2A7621FF49E0900776371 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C2A73C1FF49E0900776371 /* 屏幕旋转方案 */;
+			targetProxy = B5C2A7611FF49E0900776371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5C2A74B1FF49E0900776371 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C2A74C1FF49E0900776371 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C2A7671FF49E0900776371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5C2A7681FF49E0900776371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C2A76A1FF49E0900776371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5561A5CF71DD334BEF8FC055 /* Pods-屏幕旋转方案.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "屏幕旋转方案/PrefixHeader.pch";
+				INFOPLIST_FILE = "屏幕旋转方案/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5C2A76B1FF49E0900776371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0D8063BEEDCF74FBA38540 /* Pods-屏幕旋转方案.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "屏幕旋转方案/PrefixHeader.pch";
+				INFOPLIST_FILE = "屏幕旋转方案/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5C2A76D1FF49E0900776371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E04A78530BED8F1512608C0 /* Pods-屏幕旋转方案Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "屏幕旋转方案Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/屏幕旋转方案.app/屏幕旋转方案";
+			};
+			name = Debug;
+		};
+		B5C2A76E1FF49E0900776371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB5B89A69005F5DCBFA752F /* Pods-屏幕旋转方案Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "屏幕旋转方案Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/屏幕旋转方案.app/屏幕旋转方案";
+			};
+			name = Release;
+		};
+		B5C2A7701FF49E0900776371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63076998822FFBC746B238D /* Pods-屏幕旋转方案UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "屏幕旋转方案UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "屏幕旋转方案";
+			};
+			name = Debug;
+		};
+		B5C2A7711FF49E0900776371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6597F50A5A04CC106D099218 /* Pods-屏幕旋转方案UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9EV8487M2;
+				INFOPLIST_FILE = "屏幕旋转方案UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.315i.com.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "屏幕旋转方案";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C2A7381FF49E0900776371 /* Build configuration list for PBXProject "屏幕旋转方案" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C2A7671FF49E0900776371 /* Debug */,
+				B5C2A7681FF49E0900776371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C2A7691FF49E0900776371 /* Build configuration list for PBXNativeTarget "屏幕旋转方案" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C2A76A1FF49E0900776371 /* Debug */,
+				B5C2A76B1FF49E0900776371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C2A76C1FF49E0900776371 /* Build configuration list for PBXNativeTarget "屏幕旋转方案Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C2A76D1FF49E0900776371 /* Debug */,
+				B5C2A76E1FF49E0900776371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C2A76F1FF49E0900776371 /* Build configuration list for PBXNativeTarget "屏幕旋转方案UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C2A7701FF49E0900776371 /* Debug */,
+				B5C2A7711FF49E0900776371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C2A7351FF49E0900776371 /* Project object */;
+}
